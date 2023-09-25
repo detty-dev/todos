@@ -1,0 +1,63 @@
+* {
+    background-color: #6f9999; 
+   
+  }
+  
+  .todo-create {
+    width: 18rem;
+    margin: auto;
+  }
+  
+  .App {
+    margin-top: 5rem;
+  }
+  
+  .todo-input {
+    background-color: white;
+    border: none;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 200px;
+    border-radius: 5px;
+    outline: none;
+    
+      
+  }
+  
+  .todo-submit {
+    background-color: #9e3504;
+    color: white;
+    border: none;
+    padding: 0.5rem 0.5rem;
+  }
+  
+  .todo-wrapper {
+    width: 50rem;
+    margin: 4rem auto;
+  }
+  
+  .todo {
+    margin: 0.8rem 0;
+  }
+  
+  .todo-title {
+    font-style: bold;
+    font-size: 1.5rem;
+  }
+  
+  .checked {
+    text-decoration: line-through;
+    color: #9e3504;
+  }
+
+  .tabs {
+    display: flex;
+    gap: 10%;
+    margin-top: 10%;
+  }
+
+  .tab {
+    padding: 3% 5%;
+    border: 1px solid #000;
+    border-radius: 5px;
+  }
